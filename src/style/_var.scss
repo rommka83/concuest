@@ -1,0 +1,16 @@
+$background_main: #fdfdfb;
+$header_text: #555248;
+$title_color: #1b1a17;
+$section_text_color: #444240;
+$btn_bg_light: #d4b098;
+$white: #fff;
+
+@mixin line {
+  content: '';
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  background-color: $title_color;
+}

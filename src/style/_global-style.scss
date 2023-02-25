@@ -1,0 +1,58 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  margin-bottom: 80px;
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: $title_color;
+}
+.section-text {
+  font-size: 16px;
+  color: $section_text_color;
+}
+.btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 26px 38px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: $white;
+  text-transform: uppercase;
+}
+.btn_dark {
+  background-color: $section_text_color;
+  border: 1px solid $section_text_color;
+}
+.btn_light {
+  background-color: $btn_bg_light;
+  border: 1px solid $btn_bg_light;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  .logo__picture {
+    height: 100%;
+    margin-right: 10px;
+  }
+  .logo__text {
+    font-family: 'Playfair Display';
+    letter-spacing: 0.14em;
+  }
+}
+.logo_dark {
+  .logo__text {
+    color: $header_text;
+  }
+}
+.logo_white {
+  .logo__text {
+    color: $white;
+  }
+}
